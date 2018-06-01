@@ -1,6 +1,6 @@
 ﻿namespace mikrotik_configurator
 {
-    partial class Form1
+    partial class modulesWindow
     {
         /// <summary>
         /// Required designer variable.
@@ -28,13 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // modulesWindow
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(485, 327);
+            this.Name = "modulesWindow";
+            this.Text = "modules";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
     }
 }
-

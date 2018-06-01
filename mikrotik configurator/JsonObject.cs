@@ -14,7 +14,7 @@ namespace mikrotik_configurator
         public portSettings[] portforwards { get; set; }
     }
 
-    class wifiSettings
+    public class wifiSettings
     {
         public string ssid { get; set; }
         public string password { get; set; }
@@ -24,13 +24,13 @@ namespace mikrotik_configurator
 
     }
 
-    class cableSettings
+    public class cableSettings
     {
         public string ip { get; set; }
         public string subnetmask { get; set; }
     }
 
-    class portSettings
+    public class portSettings
     {
         public string fromIp { get; set; }
         public string toIp { get; set; }

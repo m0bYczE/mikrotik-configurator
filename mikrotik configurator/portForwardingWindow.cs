@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace mikrotik_configurator
 {
-    public partial class Form1 : Form
+    public partial class portForwardingWindow : Form
     {
-        public Form1()
+        public portForwardingWindow()
         {
             InitializeComponent();
         }
