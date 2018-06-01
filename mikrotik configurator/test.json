@@ -1,0 +1,42 @@
+{
+    "wifiSettings":
+    {
+        "ssid": "gumball",
+        "password": "12345678",
+        "ip": "192.168.137.125",
+        "subnetmask": 24,
+        "dnsServer": "8.8.8.8"
+    },
+    "cableSettings":
+    {
+        "ip": "192.168.88.1",
+        "subnetmask":24
+    },
+    "portforwards":
+    [
+        {
+            "fromIp":"192.168.137.125",
+            "toIp":"192.168.88.60",
+            "inPort":7000,
+            "outPort":7000
+        },
+        {
+            "fromIp":"192.168.137.125",
+            "toIp":"192.168.88.60",
+            "inPort":23,
+            "outPort":23
+        },
+        {
+            "fromIp":"192.168.137.125",
+            "toIp":"192.168.88.60",
+            "inPort":25,
+            "outPort":25
+        },
+        {
+            "fromIp":"192.168.137.125",
+            "toIp":"192.168.88.60",
+            "inPort":21,
+            "outPort":21
+        }
+    ]
+}
